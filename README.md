@@ -9,6 +9,8 @@ Key Features
 - Email Validation & Web Search Utilities
 - Scalable & Modular Design for real-world use
 ----
+## AgentSync workflow
+![AgentSync_workflow](media/AgentSync_workflow.png)
 
 ## Installation
 
@@ -174,6 +176,60 @@ Ensure all responses align with the intended purpose, audience, and tone. If a r
 python Email_sender.py
 ```
 
+## Result
+```
+Running Email generation Automation...
+✅ Email sent to mdsazzad1779@gmail.com
+
+Email generation Execution Completed. Summary:
+================================ Human Message =================================
+
+You are responsible for automating email generation and sending the generated email to mdsazzad1779@gmail.com. Execute the following steps in the correct order, utilizing the appropriate agents and tools:
+================================== Ai Message ==================================
+Name: supervisor
+Tool Calls:
+  transfer_to_email_process (call_Ze9VzvUmUnyE8WRu5RTr9xG7)
+ Call ID: call_Ze9VzvUmUnyE8WRu5RTr9xG7
+  Args:
+================================= Tool Message =================================
+Name: transfer_to_email_process
+
+Successfully transferred to Email_process
+================================== Ai Message ==================================
+Name: Email_process
+
+I have generated the professional email for the job application and successfully sent it to mdsazzad1779@gmail.com. The email content is as follows:
+
+Subject: Job Application
+
+Dear Hiring Manager,
+
+I am writing to express my interest in the [Job Title] position at [Company Name]. With [Number] years of experience in [Industry/Field], I believe I have the skills and qualifications needed to contribute effectively to your team. Enclosed is my resume for your review.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my background, skills, and enthusiasms can be beneficial to [Company Name].
+
+Sincerely,
+[Your Name]
+
+If you need any further assistance, feel free to ask.
+================================== Ai Message ==================================
+Name: Email_process
+
+Transferring back to supervisor
+Tool Calls:
+  transfer_back_to_supervisor (2b8477bc-70f8-424c-bce5-1fe09059baf4)
+ Call ID: 2b8477bc-70f8-424c-bce5-1fe09059baf4
+  Args:
+================================= Tool Message =================================
+Name: transfer_back_to_supervisor
+
+Successfully transferred back to supervisor
+================================== Ai Message ==================================
+Name: supervisor
+
+The email has been generated and successfully sent. If you need any further assistance or want to proceed with any other tasks, please let me know.
+```
+
 ## Contributing
 1. Fork the repository.
 2. Create a feature branch (`git checkout -b feature-branch`).
@@ -181,8 +237,6 @@ python Email_sender.py
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
-## AgentSync workflow
-![AgentSync_workflow](media/AgentSync_workflow.png)
 
 ## License
 This project is licensed under the MIT License.
