@@ -181,6 +181,9 @@ python Email_sender.py
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
 
+## AgentSync workflow
+![AgentSync_workflow](media/AgentSync_workflow.png)
+
 ## License
 This project is licensed under the MIT License.
 
