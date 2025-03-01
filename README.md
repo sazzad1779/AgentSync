@@ -3,11 +3,11 @@
 AgentSync is a production-ready AI agent framework designed to manage and automate complex tasks efficiently. With its Supervisor Agent module, it acts like an AI-powered manager—orchestrating multiple agents, handling workflows, and integrating with various tools like Gmail, Google Sheets, and web search utilities.
 
 Key Features
-✅ Supervisor Agent to manage and delegate tasks
-✅ Customizable Tools for seamless integrations
-✅ Google Sheets & Gmail Integration for automation
-✅ Email Validation & Web Search Utilities
-✅ Scalable & Modular Design for real-world use
+- Supervisor Agent to manage and delegate tasks
+- Customizable Tools for seamless integrations
+- Google Sheets & Gmail Integration for automation
+- Email Validation & Web Search Utilities
+- Scalable & Modular Design for real-world use
 ----
 
 ## Installation
@@ -169,7 +169,7 @@ Ensure all responses align with the intended purpose, audience, and tone. If a r
 """
 ```
 
-### Running Tests
+### Test
 ```sh
 python Email_sender.py
 ```
